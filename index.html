@@ -1,0 +1,2126 @@
+﻿<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<title>Not lewd, Just Kinklist IRL</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="jquery-2.2.3.min.js" integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo=" crossorigin="anonymous"></script>
+<link rel="icon" type="image/x-icon" href="data:image/x-icon;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTExIDc5LjE1ODMyNSwgMjAxNS8wOS8xMC0wMToxMDoyMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTUgKFdpbmRvd3MpIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOjUxMjJENDVFODVDMjExRThCRkQwRkY3RDdGQThFN0Q3IiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOjUxMjJENDVGODVDMjExRThCRkQwRkY3RDdGQThFN0Q3Ij4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6NTEyMkQ0NUM4NUMyMTFFOEJGRDBGRjdEN0ZBOEU3RDciIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6NTEyMkQ0NUQ4NUMyMTFFOEJGRDBGRjdEN0ZBOEU3RDciLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz6DSVV9AAAAG1BMVEX/jL3yhbSMp/+Ej9mHmen3iLjoiLzgiL0AAAA8o9xsAAAACXRSTlP//////////wBTT3gSAAAAUElEQVR42nTPUQ6AMAgD0JYy5f4n1gUzJtH+8RJKQLTgG6Q3yF07yM2WIOcSPLPZSbLgIAfAWiFmBldpArjONgh1iFl5VxQEmVf/nttyCTAAHOIFmulJgpcAAAAASUVORK5CYII=">
+<style>
+            body {
+                font-family: 'Verdana', 'Arial';
+                font-size: 12px;
+				color: #000;
+				background-repeat: no-repeat;
+				background-position: top right;
+				background-size: auto 100px;
+				background-color: #fff;
+            }
+            h2 {
+                padding: 0;
+                margin: 0;
+                margin-top: 10px;
+                margin-bottom: 5px;
+                font-size: 18px;
+            }
+            table {
+                border-collapse: collapse;
+                margin-bottom: 10px;
+                width: 100%;
+            }
+            th {
+                border: solid #999 1px;
+                border-right: none;
+                margin: 0px;
+                padding: 4px;
+                background-color: #eee;
+				color: #eee;
+            }
+            th.choicesCol {
+                box-sizing: border-box;
+                width: 125px;
+            }
+            th + th {
+                border-left: none;
+            }
+            th:last-child {
+                border-right: solid #999 1px;
+            }
+            tr:nth-child(even) {
+                background-color: #f9f9f9;
+            }
+            td {
+                border-left: solid #999 1px;
+                border-bottom: solid #999 1px;
+                border-right: solid #999 1px;
+                margin: 0px;
+                padding: 4px;
+                padding-right: 2px;
+            }
+            @-moz-document url-prefix() { 
+              td {
+                 padding: 3.3px;
+              }
+            }            
+            td + td {
+                border-left-style: none;
+            }
+            .choice {
+                box-sizing: border-box;
+                width: 15px;
+                height: 15px;
+                opacity: 0.35;
+                overflow: hidden;
+                text-indent: 100px;
+                border: solid #000 1px;
+                border-radius: 50%;
+                outline-style: none!important;
+                vertical-align: middle;
+                display: inline-block;
+                cursor: pointer;
+                font-size: 0;
+                padding: 0;
+            }
+            .choices .choice {
+                transition: all 0.3s ease-in-out;
+            }
+            .choice + .choice {
+                margin-left: 5px;
+            }
+            .choices .choice:hover {
+                opacity: 0.75;
+            }
+            .choice.selected, .selected > .choice {
+                opacity: 1;
+                border-width: 2px;
+            }
+            .categoryhide {
+                opacity: 0.1;
+            }
+            .categoryhide:hover {
+                opacity: 1;
+            }
+            .legend {
+                vertical-align: middle;
+                font-size: 14px;
+            }
+            .legend div {
+                display: inline-block;
+            }
+            .legend .choice {
+                opacity: 1;
+                cursor: default;
+            }
+            .legend-text {
+                vertical-align: middle;
+            }
+            
+            #ExportWrapper {
+                width: 460px;
+                height: 52px;
+            }
+            #ExportInfo {
+                position: absolute;
+                top: 4px;
+                right: 164px;
+                font-size: 10px;
+                opacity: 0.7;
+            }
+            #ExportInfo:hover {
+                opacity: 1;
+            }
+            .Update {
+                font-weight: normal;
+                font-size: 10px;
+                opacity: 0.7;
+            }
+            .Update:hover {
+                opacity: 1;
+            }
+            #URL {
+                display: none;
+                position: absolute;
+                top: 3px;
+                box-sizing: border-box;
+                width: 300px;
+                height: 30px;
+                border-radius: 4px;
+                border: solid #CCC 1px;
+                font-size: 16px;
+                text-align: center;
+                color: #666;
+                font-weight: bold;
+            }
+            #Export {
+                position: absolute;
+                left: 310px;
+                box-sizing: border-box;
+                color: #FFF;
+                text-transform: uppercase;
+                background-color: #4980ae;
+                font-size: 18px;
+                width: 150px;
+                height: 36px;
+                border-style: none;
+                border-radius: 4px;
+                cursor: pointer;
+                transition: all 0.3s ease-in-out;
+            }
+            #Export:hover {
+                opacity: 0.85;
+            }
+            #ExportImage {
+                position: absolute;
+                left: 310px;
+                top: 39px;
+                box-sizing: border-box;
+                color: #FFF;
+                text-transform: uppercase;
+                background-color: #4980ae;
+                font-size: 18px;
+                width: 150px;
+                height: 36px;
+                border-style: none;
+                border-radius: 4px;
+                cursor: pointer;
+                transition: all 0.3s ease-in-out;
+            }
+            #ExportImage:hover {
+                opacity: 0.85;
+            }
+            #InputList {
+                margin-top:40px;
+            }
+            #Loading {
+                display: none;
+                overflow: visible;
+                line-height: 26px;
+                font-size: 16px;
+                color: #999;
+                font-weight: bold;
+                position: absolute;
+                top: 4px;
+                left: 220px;
+            }
+            #Loading:before {
+                content: '';
+                position: absolute;
+                box-sizing: border-box;
+                width: 26px;
+                height: 26px;
+                border-radius: 50%;
+                border: solid #999 2px;
+                border-top-color: transparent;
+                border-left-color: #CCC;
+                border-right-color: #666;
+                animation: spin .5s infinite linear;
+                margin-left: -40px;
+            }
+            @media (min-width: 1700px) {
+                .legend {
+                    position: absolute;
+                    top: 7px;
+                    left: 160px;
+                }
+                .legend div {
+                    width: 130px;
+                }
+                #ExportWrapper {
+                    position: absolute;
+                    top: -3px;
+                    right: 46px;
+                }
+                h1 {
+                    margin-bottom: 0;
+                }
+            }
+            @media (max-width: 1700px) and (min-width: 1250px) {
+                .legend div {
+                    width: 130px;
+                    padding-bottom: 10px;
+                }
+                #ExportWrapper {
+                    position: absolute;
+                    top: -3px;
+                    right: 46px;
+                }
+            }
+            @media (max-width: 1250px) and (min-width: 598px) {
+                .legend div {
+                    width: 180px;
+                    padding-bottom: 10px;
+                    padding-left: 10px;
+                }
+                #ExportWrapper {
+                    position: relative;
+                    margin-top: 10px;
+                    margin-left: 5px;
+                    width: 560px;
+                }
+                #URL {
+                    left: 155px;
+                    width: 190px;
+                    font-size: 10px;
+                }
+                #Export {
+                    left: 0px;
+                }
+                #ExportImage {
+                    left: 0px;
+                }
+                #Loading {
+                    left: 230px;
+                }
+                #ExportInfo {
+                    right: 0px;
+                    left:160px;
+                }
+            }
+            @media (max-width: 597px) {
+                body {
+                    font-size: 10px;
+                }
+                table {
+                    min-width: 345px;
+                }
+                .legend div {
+                    width: 150px;
+                    padding-bottom: 10px;
+                    padding-left: 10px;
+                }
+                #ExportWrapper {
+                    position: relative;
+                    margin-top: 10px;
+                    margin-left: 0px;
+                    width: 345px;
+                }
+                #URL {
+                    left: 155px;
+                    width: 190px;
+                    font-size: 10px;
+                }
+                #Export {
+                    left: 0px;
+                }
+                #ExportImage {
+                    left: 0px;
+                }
+                #Loading {
+                    left: 230px;
+                }
+                #ExportInfo {
+                    right: 0px;
+                    left:160px;
+                }
+            }
+            @keyframes spin {
+                0% {transform: rotate(0deg);}
+                100% {transform: rotate(-360deg);}
+            }
+            
+            #ExportWrapper :last-child:after {
+                content: '';
+                display: block;
+                clear: both;
+            }
+            .kinkCategory {
+                
+            }
+            .col {
+                float: left;
+                box-sizing: border-box;
+                margin: 0;
+                padding: 5px;
+            }
+            .col.col25 { width: 25%; }
+            .col.col33 { width: 33.33333%; }
+            .col.col50 { width: 50%; }
+            .col.col100 { width: 100%; padding: 0px; }
+            .widthWrapper {
+                max-width: 1700px;
+                margin-left: auto;
+                margin-right: auto;
+                position: relative;
+            }
+            #Edit {
+                width: 18px;
+                height: 18px;
+                background-color: transparent;
+				background-image: url('data:image/png;base64,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');
+                background-repeat: no-repeat;
+                float: left;
+                border-style: none;
+                outline-style: none!important;
+                margin-top: 6px;
+                margin-right: 4px;
+                opacity: 0.5;
+                cursor: pointer;
+            }
+            #Edit:hover {
+                opacity: 1;
+            }
+			.KinkDesc {
+				position:absolute;
+				height: 13px;
+				width: 13px;
+				background-size: 100% 100%;
+				background-color: transparent;
+				background-image: url('data:image/png;base64,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');
+				border-style: none;
+				outline-style: none;
+				margin-left: 5px;
+				margin-top: 1px;
+				opacity: 0.6;
+				cursor: pointer;
+			}
+			.KinkDesc:hover {
+				opacity: 1;
+			}
+			#Description {
+                box-sizing: border-box;
+                position: absolute;
+				width: 330px;
+				left: 50%;
+				bottom: 50%;
+                resize: none;
+				background-color: #fff;
+                border-radius: 5px;
+                margin-left: -165px;
+				padding: 10px;
+				font-family: 'Verdana', 'Arial';
+                font-size: 14px;
+			}
+            .overlay {
+                position: fixed;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                background-color: rgba(0, 0, 0, 0.8);
+                display: none;
+            }
+			#EditOverlay #FF_KinksWrapper{
+                position: absolute;
+                top: 10px;
+                bottom: 50px;
+				width: 330px;
+				left: 50%;
+                margin-left: -165px;
+			}
+            #EditOverlay #FF_KinksWrapper #Kinks {
+                box-sizing: border-box;
+                position: absolute;
+				width: 100%;
+				height: 100%;
+                resize: none;
+                border-radius: 5px;
+                font-family: monospace, 'Courier new', Courier;
+            }
+            #EditOverlay #KinksOK {
+                box-sizing: border-box;
+                position: absolute;
+                bottom: -40px;
+                width: 330px;
+                height: 30px;
+                left: 50%;
+                margin-left: -165px;
+                color: #FFF;
+                text-transform: uppercase;
+                background-color: #4980ae;
+                font-size: 18px;
+                border-style: none;
+                border-radius: 5px;
+                cursor: pointer;
+            }
+            
+            #InputOverlay {
+                text-align: center;
+                white-space: nowrap;
+            }
+            #InputOverlay:before {
+                content: '';
+                display: inline-block;
+                height: 100%;
+                vertical-align: middle;
+                margin-right: -0.25em;
+            }
+            #InputOverlay .widthWrapper {
+                display: inline-block;
+                vertical-align: middle;
+                width: 400px;
+                text-align: left;
+                max-width: 100%;
+            }
+            #InputOverlay .widthWrapper #InputCurrent, #InputOverlay .widthWrapper .kink-simple {
+                display: block;
+                box-sizing: border-box;
+                padding: 10px;
+                background-color: #fff;
+            }
+            #InputOverlay .widthWrapper .kink-simple {
+                position: relative;
+                height: 40px;
+                line-height: 20px;
+                cursor: pointer;
+            }
+            #InputOverlay .widthWrapper .kink-simple .choice {
+                margin-right: 5px;
+            }
+            #InputOverlay .widthWrapper .kink-simple .txt-category {
+                position: absolute;
+                right: 5px;
+                top: 5px;
+                text-transform: uppercase;
+                font-size: 90%;
+                font-weight: bold;
+                opacity: 0.6;
+                line-height: 1em;
+            }
+            #InputOverlay .widthWrapper .kink-simple .txt-field, #InputOverlay .widthWrapper .kink-simple .txt-kink {
+                vertical-align: middle;
+            }
+            #InputOverlay .widthWrapper .kink-simple .txt-field:empty {
+                display: none;
+            }
+            #InputOverlay .widthWrapper .kink-simple .txt-field:before {
+                content: '(';
+            }
+            #InputOverlay .widthWrapper .kink-simple .txt-field:after {
+                content: ') ';
+            }
+            
+            #InputOverlay .widthWrapper #InputPrevious .kink-simple:first-child,
+            #InputOverlay .widthWrapper #InputNext .kink-simple:nth-child(3) {
+                background-color: #ddd;
+                font-size: 10px;
+                margin-left: 12px;
+                margin-right: 12px;
+                height: 33px;
+            }
+            #InputOverlay .widthWrapper #InputPrevious .kink-simple:nth-child(2),
+            #InputOverlay .widthWrapper #InputNext .kink-simple:nth-child(2) {
+                background-color: #eee;
+                font-size: 11px;
+                margin-left: 6px;
+                margin-right: 6px;
+                height: 37px;
+            }
+            #InputOverlay .widthWrapper #InputPrevious .kink-simple:nth-child(3),
+            #InputOverlay .widthWrapper #InputNext .kink-simple:first-child {
+                background-color: #f6f6f6;
+                margin-left: 3px;
+                margin-right: 3px;
+            }
+            #InputOverlay .widthWrapper #InputPrevious .kink-simple:first-child {
+                padding-bottom: 4px;
+                padding-top: 7px;
+            }
+            #InputOverlay .widthWrapper #InputNext .kink-simple:nth-child(3) {
+                padding-top: 4px;
+            }
+            #InputOverlay .widthWrapper #InputPrevious .kink-simple:nth-child(2) {
+                padding-bottom: 7px;
+                padding-top: 9px;
+            }
+            #InputOverlay .widthWrapper #InputNext .kink-simple:nth-child(2) {
+                padding-top: 7px;
+            }
+            
+            #InputPrevious .kink-simple {
+                border-top-left-radius: 2px;
+                border-top-right-radius: 2px;
+            }
+            #InputNext .kink-simple {
+                border-bottom-left-radius: 2px;
+                border-bottom-right-radius: 2px;
+            }
+            
+            #InputOverlay .widthWrapper #InputCurrent {
+                position: relative;
+            }
+            #InputOverlay .widthWrapper #InputCurrent .closePopup {
+                position: absolute;
+                top: 0;
+                right: 5px;
+                border-style: none;
+                background-color: transparent;
+                font-size: 30px;
+                cursor: pointer;
+                outline-style: none!important;
+                opacity: 0.65;
+            }
+            #InputOverlay .widthWrapper #InputCurrent .closePopup:hover {
+                opacity: 1;
+            }
+            #InputOverlay .widthWrapper #InputCurrent h2 {
+                text-transform: uppercase;
+                opacity: 0.6;
+                margin: 0;
+            }
+            #InputOverlay .widthWrapper #InputCurrent h3 {
+                margin-top: 3px;
+                margin-bottom: 0;
+                font-size: 14px;
+            }
+            #InputOverlay .widthWrapper #InputCurrent #InputValues .big-choice {
+                padding: 10px;
+                background-color: rgba(220,220,220,0.75);
+                border-radius: 4px;
+                margin-top: 5px;
+                cursor: pointer;
+            }
+            #InputOverlay .widthWrapper #InputCurrent #InputValues .big-choice.selected {
+                font-weight: bold;
+            }
+            #InputOverlay .widthWrapper #InputCurrent #InputValues .big-choice.selected .choice {
+                opacity: 1;
+            }
+            #InputOverlay .widthWrapper #InputCurrent #InputValues .big-choice:hover {
+                padding: 8px;
+                border: solid #999 2px;
+                background-color: rgba(180,180,180,0.75);
+            }
+            #InputOverlay .widthWrapper #InputCurrent #InputValues .big-choice .btn-num-text {
+                float: right;
+                display: inline-block;
+                border: solid #CCC 1px;
+                text-align: center;
+                width: 16px;
+                border-radius: 3px;
+            }
+            #StartBtn {
+                position: absolute;
+                top: -3px;
+                right: 5px;
+                box-sizing: border-box;
+                width: 36px;
+                height: 36px;
+                background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAALEgAACxIB0t1+/AAAABx0RVh0U29mdHdhcmUAQWRvYmUgRmlyZXdvcmtzIENTNui8sowAAAAWdEVYdENyZWF0aW9uIFRpbWUAMTAvMTUvMTWxuPuyAAACcElEQVRYhe3X30tTYRzH8fdz3FYTd1xamAuTLDbM3EwqNMnoQgxydVH0A6Ks/oG6Mvp1n1flVUJE3pjUTVPCCJxmEKTWRAuCApujkmhJoZu57ZwuwsCaOx7nbBf73D2H7/PldfjCc54j6CxXSaNI/xvwdzIgrWRAWsmAtJJ2IIOe4iLzejoqmym1lDAZ+UFEicatC8Vm6A++5Jb/Pm+nxlIHatl2keo8FwJBriGHREe8U7bjyrWz7/m51IHq1lWjqire4AAvJkf5qczGrduUvYHTRQdxyQ5dGN0gg8hCBc4MXyUQnliwbqO5kOO2/ZzyXQagONvGcO0DLrxp5m7As3ygxUZB4aTvEt1fnuGSHQgEnoleKnIdEEi8NymQ6h7555nocvJt9jsPJ3o4XFhHq/MaAkFF/xE+hD5p9kwKJLqccZ+HYjMcs9XTXnkdSUi0BToXhYEUnUM7rFvnYRqHryx6b1Ig1T2C6h4h0uDjqK0eSUi4ZAc9VbeRhMS76XFdGFjmkblkB3277yAbc3g/PY7D69bdc9lGNoexGi10fOzG7nWTb7KuLCh8YJAyy2YEgqE997AaLbQFOjnxqom1JiueXTd190xqZOZHOwFoLDrEVCxMm9/D+dfNSELiSVUrpZaSlQXNpTc4wJrHNX/W+SYr5bKdqBr/45soSxqZQWTNW/tDn+etV0umpbT93VtP8awSwZhl4EZZE/7wwgddsdmGJAQxRUktyPt1gIaCvTQU1Ca8eghAVVX6goO6QULPn2vBqnyatpylJm87RrHwu0TVKE+DQ7SMtSe8FSQNWomk3Z06A9JKBqSVDEgraQf6BTg8uT5wSV/pAAAAAElFTkSuQmCC');
+                border-style: none;
+                border-radius: 4px;
+                cursor: pointer;
+            }
+            #StartBtn:hover {
+                opacity: 0.8;
+            }
+            #themeBtn {
+                position: absolute;
+                top: 36px;
+                right: 5px;
+                box-sizing: border-box;
+                width: 36px;
+                height: 36px;
+                background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAIAAABuYg/PAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTExIDc5LjE1ODMyNSwgMjAxNS8wOS8xMC0wMToxMDoyMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTUgKFdpbmRvd3MpIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOjQ1NzlDRTU3ODUwRDExRTg4M0VEQ0Y4MDEzQkQ0RDM3IiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOjQ1NzlDRTU4ODUwRDExRTg4M0VEQ0Y4MDEzQkQ0RDM3Ij4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6NDU3OUNFNTU4NTBEMTFFODgzRURDRjgwMTNCRDREMzciIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6NDU3OUNFNTY4NTBEMTFFODgzRURDRjgwMTNCRDREMzciLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz6aWndOAAACDUlEQVR42mL0bFjHQC/AxEBHMGrZqGV4AQvxSnXlRex1ZHQVRCSFuFmYmP78+/f83dfLD94cvPLk8sM3VLNMSZw/29tAU1YIyP7////7rz+ZGBkFuNllRXiByMtE8frjd1O3Xrj38iN+c5hVHcLxq3DRl6uPtBQX4Lr59P2CvdcmbT6/4tBNDjYWPQURuBpRfk43Q/nXH7/jt4+FoE1FAcZ//v6bvOX8jrMP/uMxiJkJqBLI2HPxETkJBBh6eb6GQJtqlx7bjtcmOACqB+oixzJgPAHdO337xYv3XxOb3piZgLpItgyY9oApAhhPwNAjKX0DdQH1kmYZMJUDyc2n7v0nPT9B9JLiMwURYCo/ffsFGZlXV4FEnwFzLjA/ff7+iwzLgHpJswxYRnz69ovMYomJiTTLgKURHxcbeZYB9ZJmGbDcE+Rm5+Ukxz6gXtIsA5awjIyMpqoSZFgG1EuaZcCyHEj6mikxkm4ZRC8pPnv4BliWq0sLehgrkGQTUBeuGgdfcQWsNYAFY6anvr6iKLFJ4+8/oC5yykZgfQGsUIDFXXO0laexAjHhCVSPp5YhUJ8Bdb788M1cXdJSQ8pEVeL3n39vPn3/9eevnoKoHmoxAfTThE3n8NQvRNXUQP33XnyE1NTqgcbwmhotnoipqYlqFgBNKZ53kE5tEHj6JNLQ0UbqqGWjlqEAgAADAJxZ66PqhbYJAAAAAElFTkSuQmCC');
+                border-style: none;
+                border-radius: 4px;
+                cursor: pointer;
+            }
+            #themeBtn:hover {
+                opacity: 0.8;
+            }
+            @media (max-height: 500px) {
+                #InputPrevious, #InputNext {
+                    display: none;
+                }
+            }
+        </style>
+</head>
+<body>
+<div class="widthWrapper">
+<button id="Edit"></button>
+<h1>Kink list<sup style="font-size:10px;"> IRL</sup><div class="Update">(last update: 2018/09/05. Descriptions need fixing, I'm lazy.)</div></h1>
+<div class="legend">
+<div><span data-color="#FFFFFF" class="choice notEntered"></span> <span class="legend-text">Not Entered</span></div>
+<div><span data-color="#6DB5FE" class="choice favorite"></span> <span class="legend-text">Favorite</span></div>
+<div><span data-color="#23FD22" class="choice like"></span> <span class="legend-text">Like</span></div>
+<div><span data-color="#FDFD6B" class="choice okay"></span> <span class="legend-text">Okay</span></div>
+<div><span data-color="#DB6C00" class="choice maybe"></span> <span class="legend-text">Maybe</span></div>
+<div><span data-color="#920000" class="choice no"></span> <span class="legend-text">No</span></div>
+</div>
+<div id="ExportWrapper">
+<input id="URL" type="text">
+<button id="Export">Imgur</button>
+<div id="Loading">Loading</div>
+<button id="ExportImage">Local</button>
+<div id="ExportInfo">When done, choose a method to export the list to an image for sharing.<br><br>'Imgur' will automatically upload the list to imgur.com and give you a sharable link.<br>'Local' will require you to upload the image yourself.</div>
+</div>
+<button id="StartBtn"></button>
+<button id="themeBtn"></button>
+<div id="InputList"></div>
+</div>
+<div id="EditOverlay" class="overlay">
+<div id="FF_KinksWrapper">
+<textarea id="Kinks">
+#General Kinks
+(General)
+* Condoms
+? The use of condoms in any way; typically refers to a preference for the use of condoms during penetration, but may also refer to condom play, in which a condom (typically filled), is used as a sex toy; or, the filling of condoms with fluids, such as semen.
+* Food Play
+? The act of incorporating food into the sexual context of an RP, or which may include (but is not limited to) use of whipped cream or chocolate sauce in a sexual act, receiving sexual gratification from the act of eating, or including rather large amounts of food (but not necessarily). 
+* Foreplay
+? Sexual activity that precedes intercourse, incorporating various forms of erotic build up before the actual act of sex.
+* Ice
+? The use of ice in any fashion during sex, typically as a form of erotic foreplay.
+* Sex Toys
+? Refers to the inclusion of (generally penetrating) sex toys in an RP, including but not limited to dildos, vibrators, anal eggs, anal beads, flesh tubes, etc.
+* Shaving
+? Engaging in the removal of fur / hair from a participant in an RP by the means of shaving.
+* Strap-ons
+? Engaging in an RP in which at least one character will wear a strap-on to penetrate another character.
+* Teasing
+? Refers to extended scenes of foreplay prior to explicit, sexual intercourse, which may be physical and / or verbal, typically to arouse one's partner to the point of sexual frustration or desperation.
+* Tickling
+? The act of tickling and / or being tickled in a sexual context of an RP; or, receiving sexual stimulation from such.
+
+
+#Character Preferences
+(General)
+* Androgyny
+? Gender ambiguity in appearance. May also be found in fashion, voice, gender identity, sexual identity, or lifestyle.
+* Body Hair
+? Expresses in interest in characters that have body hair. Generally denotes hair on places like a character’s chest, arms, legs, armpits, stomach trail, etc.
+* Chubby
+? Expresses an interest in characters that are well-rounded and pudgy, with a little more extra weight than average but not necessarily fat.
+* Cut Cocks
+? Expresses an interest in circumcised penises.
+* Facial Hair / Beards
+? Expresses an interest in characters sporting facial hair in some manner, which can extend anywhere from scruffy stubble to full beards.
+* Femininity
+? An interest in characters that tend to be traditionally feminine in appearance and / or personality.
+* Genital / Nipple Piercings
+? Engaging in an RP in which at least one character has piercings that are located on the nipples or sexual areas of the body; typically cock or labia piercings.
+* Large Breasts
+? Expresses an interest in exceptionally large breasts.
+* Large Cocks
+? Expresses an interest in exceptionally large cocks.
+* Moobs
+? Expresses an interest in male identifying characters that have significant breast tissue, typically known as gynecomastia.
+* Muscular Characters
+? Expresses an interest in characters that are powerfully-built and / or athletic.
+* Nonsexual Piercings
+? Engaging in sex with a character who has piercings on parts of their body that are not of a sexual nature, such as but not limited to tongue, ears, nose, lips, bellybutton etc.
+* Older Characters
+? Expresses a preference for characters that are older than one's own.
+* Pubic Hair
+? Expresses an interest in pubic hair, possibly in large or excessive quantities.
+* Shorter Characters
+? An expressed interest in characters that are shorter than one's character.
+* Skinny Characters
+? Expresses an interest in characters that are rather thin or lank.
+* Small Breasts
+? Expresses an interest in breasts that are particularly small, sometimes to the point of appearing absent.
+* Small Cocks
+? Expresses an interest in cocks that are smaller than five inches.
+* Taller Characters
+? An expressed interest in characters that are taller than one's character.
+* Tattoos / Body Art
+? An interest in characters that have tattoos.
+* Tomboys
+? Females who behave or present themselves in a masculine manner.
+* Twinks
+? Expresses an interest in male characters that are typically skinny / slim in build, having little or no body or facial hair, and described as conventionally attractive, but still present as masculine / male.
+* Twins
+? Expresses an interest in two or more characters who are identical, often siblings but not necessarily, who may or may not be played by the same player.
+* Uncut Cocks
+? Expresses an interest in penises that have not been circumsized and have present foreskin.
+* Voluptuousness
+? Expresses an interest in characters with wider than average hips and large buttocks.
+* Younger Characters
+? Expresses a preference for characters that are younger than one's own.
+
+
+#Gender Preferences
+(General)
+* Females
+? Expresses an interest in traditionally female characters.
+* Males
+? Expresses an interest in traditionally male characters.
+* Nonbinary
+? Characters that do not strictly identify or abide by a gender binary (regardless of originally assigned gender or biological sex). 
+* Trans Females
+? Expresses an interest in transgender characters that identify as female regardless of originally assigned gender or biological sex.
+* Trans Males
+? Expresses an interest in transgender characters that identify as male regardless of originally assigned gender or biological sex.
+
+
+#Anal Sex & Play
+(General)
+* Anal Fisting
+? The act of inserting one's hand(s) and / or arm(s) into one's partner's anus, or being the recipient of such acts.
+* Anal Sex (Giving)
+? The act of anally penetrating a partner.
+* Anal Sex (Receiving)
+? The act of being anally penetrated.
+* Anal Training
+? Engaging in the use of the various anatomy of a character's anus to otherwise prepare and / or acclimate the character to an insertion, the size of which the character would not otherwise be comfortable taking.
+* Anal Virginity
+? Engaging in anal sex with a character who has never been anally penetrated before, or being anally penetrated while playing a character that has never been penetrated before.
+* Enemas
+? The application of a liquid, typically warm water or a body fluid, to the intestines of a character, often to clean them out, but sometimes as a form of discipline or sexual gratification, or receiving such actions; might imply a form of administration other than phallic penetration.
+* Fingering (Anal)
+? The act of using one’s fingers to stimulate another character anally, or receiving such actions, in order to induce sexual pleasure.
+* Pegging
+? Anal penetration with a strap-on.
+* Prostate Play
+? The act of stimulating the prostate, generally rectally with fingers or toys.
+* Rimming (Giving)
+? The act of giving oral stimulation to a partner's anus, by the means of licking and / or penetrating the recipient's anus with the tongue.
+* Rimming (Receiving)
+? The act of receiving oral stimulation to one's anus, by the means of licking and / or having one's anus penetrated by the tongue.
+
+
+#Vaginal Sex & Play
+(General)
+* Clit Play
+? Play that is centered around the clitoris, applying stimulation and significant attention, usually as a form of achieving orgasm. 
+* Fingering (Vaginal)
+? The act of using one’s fingers to stimulate another’s vagina, or receiving such actions, in order to induce sexual pleasure, commonly resulting in orgasm.
+* Gaping (Vaginal)
+? Stretching the vagina during penetration, to the point that it stays open for a period of time.
+* Pussy Worship
+? Gratuitous acknowledgment of one's partner's vagina, either verbal and / or physical, or receiving such actions; typically implies oral stimulation.
+* Queefing
+? The sounds of air expulsion from the vagina via intercourse.
+* Squirting
+? The act of a vagina emitting a projectile fluid during orgasm.
+* Tribadism / Scissoring
+? Form of non-penetrative sex in which a person rubs their vagina against a same-sex partner's body for sexual stimulation, in most cases vaginal-to-vaginal contact through scissoring.
+* Vaginal Fisting
+? The act of placing one's hand(s) and / or arm(s) into a vagina, or receiving such actions.
+* Vaginal Sex (Giving)
+? The act of sexually penetrating a vagina.
+* Vaginal Sex (Receiving)
+? The act of being sexually penetrated in the vagina.
+* Vaginal Virginity
+? Engaging in vaginal sex with a character who has never been vaginally penetrated before, or being vaginally penetrated while playing a character that has never been penetrated before.
+
+
+#Oral Sex & Play
+(General)
+* Ass to Mouth
+? The act of anally penetrating a character with a cock (or phallic object, in terms of strap ons), then withdrawing the cock and having it go straight to the other’s mouth for them to perform oral.
+* Cunnilingus (Giving)
+? The act of performing cunnilingus -- oral sex on a character's vagina.
+* Cunnilingus (Receiving)
+? The act of receiving cunnilingus -- oral sex on a character's vagina.
+* Face-Fucking
+? Refers to the act of penetrating the mouth of another character with a similar technique as fucking a vagina or anus, typically by bracing the mouth or skull and thrusting back and forth; often rough.
+* Face-Sitting
+? A sexual practice where someone sits on another character's face with their buttocks or genitals, causing the person to be smothered, sometimes to the point of asphyxiation; often done as a form of forcing oral gratification.
+* Fellatio (Performing)
+? The act of performing fellatio -- oral sex on a character's penis.
+* Fellatio (Receiving)
+? The act of receiving fellatio -- oral sex on a character's penis.
+* Fingers in Mouth
+? Expresses an interest in play that involves inserting fingers in one’s mouth. Often implies sucking, licking, feeling out one’s mouth in an exploratory fashion, or possibly inserting something into it.
+* Kissing
+? Expresses an interest in kissing or being kissed by another character, typically denoting French kissing.
+* Licking
+? The act of one character licking another. May or may not be sexual.
+* Oral Sex (Giving)
+? The act of performing fellatio or cunnilingus.
+* Oral Sex (Receiving)
+? The act of receiving fellatio or cunnilingus.
+* Oral Virginity
+? Engaging in an RP in which a character that has never performed fellatio or cunnilingus performs such acts.
+
+
+#Cock Play
+(General)
+* Cock / Ball Smothering
+? The act of smothering a character with a cock and / or balls, making it difficult to breathe.
+* Cock / Balls Worship
+? Gratuitous acknowledgment of one's partner's cock and / or balls, either verbal and / or physical, or receiving such actions; typically implies oral stimulation.
+* Cock Slapping
+? The act of using one's penis to slap one's partner and / or being slapped by a penis, usually in order to humiliate or debase a bottom prior to or during fellatio.
+* Cock Warming
+? The act of slipping one’s erection into a partner’s body in order to keep warm, typically considered a more intimate and sexual means of spooning.
+* Docking
+? Phallic insertion into another person's sheath and / or foreskin.
+* Flaccid Play
+? Expresses an interest in play that involves a character’s penis being flaccid. May involve handjobs or oral sex while flaccid, or attempting penetration in such a state.
+* Foreskin Worship
+? Gratuitous acknowledgment of one's partner's foreskin, either verbal and / or physical, or receiving such actions; typically implies oral stimulation.
+* Frotting
+? The act of at least two penises being ground against each other for sexual gratification.
+
+
+#Cum Related
+(General)
+* Bukkake
+? The act of a group of at least two people ejaculating directly onto the face and / or body of a single recipient, or receiving such actions.
+* Creampie
+? The act of orgasming into or onto an exposed, often gaping, orifice, or receiving such actions.
+* Cum
+? Sexual fluids, often generated from one’s orgasm.
+* Cum Marking
+? The act of cumming onto a bottom or submissive with the intent for the scent or sight of the cum to work as a proprietary mark, sometimes for extended or permanent periods of time, or receiving such actions.
+* Cum Milking
+? The act of collecting or milking the semen from at least one partner, typically done through manual or mechanical stimulation to the penis, or using stored semen as a sexual toy in an RP. Often involves machines and apparati.
+* Cum on Clothes
+? The act of ejaculating onto clothing or wearing clothing that has been ejaculated on, often in public and / or for extended periods of time.
+* Felching
+? The act of orally sucking semen out of a partner's anus or vagina.
+* Hard Cum Facials
+? The act of cumming onto someone's face with no regard for that person's well-being, typically cumming into their ears, onto their eyes, into their nostrils or hair etc., or receiving such action; implies an exceptionally large amount of semen.
+* Internal Cumshots
+? The act of ejaculating into another's body, or receiving such actions.
+* Premature Ejaculation
+? Expresses interest in at least one partner reaching orgasm very quickly; typically implies eagerness, excessive sensitivity and / or prolonged teasing.
+* Sloppy Seconds
+? Engaging in an RP in which a character that has just been came in receives sex from a different partner in the same orifice without removing the previous top's semen.
+* Snowballing
+? The act of receiving cum into one's mouth transmitted from another person's mouth, or french kissing while sharing a load of cum between one anothers' mouths.
+* Soft Cum Facials
+? The act of cumming directly onto one's face, typically into an open mouth or across the cheeks and / or lips, or receiving such actions.
+* Swallowing Semen
+? The act of orally consuming semen, either directly or indirectly from a penis.
+
+
+#Penetration & Sexual Themes
+(General)
+* Double Penetration
+? The act of penetrating a single character with two objects, including but not limited to the penis, sex toys, fist etc., or receiving such.
+* Gangbangs
+? A situation in which several people engage in physical sexual activity with one particular character sequentially or at the same time.
+* Somnophilia
+? The act of engaging in sexual intercourse with a sleeping partner or enjoying being on the receiving end thereof.
+* Sounding
+? The act of inserting metal rods into a character's urethra, or receiving such actions; technically implies rods that resonate and / or vibrate in response to a form of stimulation, but does not necessarily mean so.
+* Tantric Sex
+? A form of sex characterized by its focus on intimacy and emotional closeness between involved parties. Often implies a long duration with a significant aim on their intertwining such as listening to heartbeats, breathing, and exploring one another through a deep romantic bond.
+* Vanilla Sex
+? Sex which does not involve such elements as BDSM, kink, or fetish activities.
+
+
+#Themes
+(General)
+* Adultery
+? The act of voluntary sexual intercourse between a person and another character who is not their established spouse or partner.
+* Affection
+? The act of providing the sensations of tenderness and fondness, having characters express such feelings with one another through endearing behaviors.
+* Ageplay
+? Refers to scenes in which one or both players pretend to be an underage character.
+* Babysitter
+? A situation in which one character will either be or roleplay as another character's babysitter.
+* Competition
+? Pertains to multiple dominants competing to administer domination the best, or multiple submissives competing to please a dominant the best.
+* Cuckolding
+? A scenario in which one partner is complicit in their partner's infidelity and derives sexual pleasure from it. Generally consists of watching their established partner have sexual relations with another individual, often where the other is considered to be “better” than them, but not necessarily.
+* Exhibitionism
+? Engaging in some kind of play where one or both parties will be caught, spotted, or otherwise observed by a third party or parties, adding to the thrill (and / or humiliation).
+* Fighting / Wrestling
+? The act of physically sparring, either with malice or more playfully, with another character in an RP; typically non-sexual, although sometimes with the intent to pin the bottom or submissive in order to penetrate them.
+* Incest
+? Engaging in an RP in which at least two characters will be related, either by blood or by marriage.
+* Inexperienced Partners
+? Refers to players whose characters are sexually inexperienced and / or naive (typically younger or virgin characters), or an interest in RPing with such characters; does not refer to the RPing capabilities of the player.
+* Infantilism
+? A scenario in which a character (be they adult or otherwise) will be treated as if they are exceptionally young; typically implies diaper wearing and / or diaper usage. Tends to include rather infantile themes and aspects.
+* Kidnapping
+? The act of abducting a character in an RP, (typically for the purpose of abusing, usually sexually, but not necessarily) or being abducted for such reasons; often implies indefinite imprisonment.
+* Medical Play
+? Engaging in an RP set in a medical setting, such as a hospital, or an RP involving aspects of medicine, such as injections, medical equipment, uniforms or medical experiments or procedures.
+* Military Themes
+? Expresses an interest in scenes, settings, and themes that incorporate military aspects. Implies concepts such as war, weapon involvement, uniforms, rank, and more. All of which may be historical, fantasy, scifi or otherwise.
+* Multiple Partners
+? Engaging in an RP containing at least three characters.
+* Nightclubs / Bars
+? Engaging in an RP which is set in a nightclub or a bar setting.
+* Parent and Child Play
+? Describes a kind of relationship where the dominant assumes the role of a parent. This usually involves the dominant party being especially caring, nurturing and protective towards their sub. Conditioning and guidance are often involved as well.
+* Photography / Videotaping
+? The act of visually recording a scene amongst participants, often as a form of humiliation, exhibitionist fetishism and / or blackmail / extortion.
+* Polyamory
+? The practice of carrying out intimate relationships with more than one partner, with the knowledge and consent of all involved partners. Often described as "consensual, ethical, and responsible non-monogamy."
+* Pregnancy
+? Engaging in an RP in which at least one character is pregnant, and / or includes themes of pregnancy.
+* Prostitution
+? Engaging in an RP in which at least one player's character is a prostitute, or involves a prostitute; a person who receives money for sex.
+* Pseudo-rape
+? Arousal from a partner who pretends to resist and to struggle before being overpowered.
+* Roleplay
+? Expresses an interest in two or more characters taking on roles within an RP and acting out a predetermined scene with predetermined characters.
+* Role Reversal
+? Refers to characters that, within the context of a particular RP, have, through character development or pre-determined measures, established their identity in regard to dominance and / or submissiveness, that will, at some point during the sexual portion of the RP, reverse their roles in regard to their previously understood roles.
+* Romance
+? Displaying or expressing love or strong affection, passion, either during love making or during normal scenes. Typically involves the roleplaying of romantic relationships, acts, and themes.
+* Small Dom / Big Sub
+? Expresses an interest in the bottom / submissive character being physically larger than the top / dominant character in an RP; often implies the larger character is also physically stronger as well.
+* Very Experienced Partners
+? Refers to players whose characters are exceptionally experienced and / or skilled in the practice of sex, and typically connotates esoteric sexual abilities and / or knowledge, or the interest in RPing with such characters; does not refer to the RPing capabilities of the player.
+* Voyeurism
+? Participating in watching other individuals engaging in sex or some other kind of intercourse, usually discretely and without their knowledge.
+* Zoophilia
+? Refers to a sapient character engaging in a sexual act with a non-sapient animal, or playing a non-sapient animal in an RP and being engaged by a sapient character.
+
+
+#Body Worship & Play
+(General)
+* Armpits
+? Play revolving around the armpit region.
+* Ass Worship
+? Gratuitous acknowledgment of one's partner's ass or buttocks, either verbal and / or physical, or receiving such actions.
+* Belly Play
+? Play that revolves around the stomach / midsection region, be it massaging, groping, squeezing, or otherwise.
+* Body Writing
+? The act of writing, drawing, or painting various (typically sexual or degrading) words or pictures onto a character’s body.
+* Breast / Nipple Play
+? Sexual stimulation of the breasts and / or nipples.
+* Breast / Nipple Worship
+? Gratuitous acknowledgement of one's partner's chest or nipples, either verbal and / or physical, or receiving such actions.
+* Breast Smothering
+? The act of smothering a character using one's breasts, making it hard to breathe.
+* Cuddling
+? Characters showing affection through hugging, snuggling, and other forms of physical closeness.
+* Ear Play
+? Interest in roleplay where ears play an important role. This can involve suckling, caressing, breathing / whispering into, pulling them, or any other kind of interaction focusing on the ears.
+* Fat Play
+? Play that revolves around a character's body fat in one form or another. Typically in regions such as the belly, ass, chest, thighs, etc.
+* Footjobs
+? A sexual practice that involves one's feet being rubbed on a partner in order to induce sexual excitement, stimulation, or orgasm.
+* Foot Play
+? The act of incorporating the feet into the sexual context of an RP, including but not limited to the worshiping of feet, receiving sexual gratification from the sight or feel of feet and / or humping feet, sometimes to the point of orgasm.
+* Handjobs
+? The act of using one’s hand to stimulate another’s cock, or receiving such actions, in order to induce sexual pleasure, commonly resulting in orgasm.
+* Hotdogging
+? The act of placing a penis between the ass cheeks and pressing them against it, sliding it between them in order to reach sexual satisfaction.
+* Intercrural Sex
+? A form of non-penetrative sex done by inserting a cock between one’s thighs in order to achieve orgasm.
+* Lactation
+? The act of producing milk from one's breasts, or engaging in sex with a character that produces milk from one's breasts, typically in response to sexual stimulation, and any play that will emanate thereof.
+* Massages
+? The act of treating the body by rubbing, kneading, patting, or similar in order to stimulate circulation, increase suppleness, relieve tension, or pamper an individual.
+* Masturbation
+? The act of stimulating oneself sexually, usually utilizing physical contact from the hands or fingers to the genitals.
+* Muscle Worship
+? Gratuitous acknowledgment of someone's muscular physique, either verbal or physical.
+* Navel Play
+? Engaging in sexual acts involving pleasure derived from a character's bellybutton; often refers to licking or tonguing of the navel.
+* Titfucking
+? The act of placing one's penis in between a pair of breasts and achieving climax due to the friction thereof, or receiving such actions.
+
+
+#Dress Up & Materials
+(General)
+* Clothed Sex
+? Engaging in an RP where you and / or your partner are not undressed during sexual interaction.
+* Crossdressing
+? Engaging in an RP where one or more characters dress in the clothes considered traditionally atypical for their identifying gender.
+* Diapers
+? A situation in which at least one character will wear a diaper. May imply "soiling usage" of the diaper, but not necessarily. Often related with ageplay or infantilism, but sometimes in conjunction with humiliation.
+* Forced Clotheswearing
+? The act of either forcing a character to wear or being forced to wear specific garments of clothing of the other character's choosing; often humiliating.
+* Glasses
+? A preference for characters who wear glasses.
+* Latex / Rubber
+? The usage of latex and / or rubber material worn as clothing and / or used as a form of mummification / bondage; typically full body suits.
+* Leather
+? The use of leather, often in a bondage situation; typically includes leather garments or equipment associated with dominants, as well as harness gear.
+* Masks
+? The use of masks (surgical, BDSM, gas masks, etc), typically to conceal the wearer's identity, in an RP scene.
+* Sexy / Slutty Clothing
+? Having least one character wear clothing that is of a sexually suggestive or explicit nature, including but not limited to exceptionally short skirts, flamboyant underwear, excessively tight clothing, clothing with explicit graphics, etc.
+* Socks / Stockings
+? Expresses an interest in the inclusion of socks and / or stockings in the sexual context of an RP, or an interest in characters wearing such.
+* Strip Tease
+? The act of dramatically removing clothing or watching a participant do such, typically as a form of seduction.
+* Underwear
+? An affinity for underwear, either being worn on one's self, one's partner(s) or by itself; often involves stimulation from the scent or tactility of the underwear, but may also refer to using underwear as a sex toy in any way.
+* Uniforms
+? The act of being sexually aroused by uniforms or work-related attire, and / or engaging in RPs in which characters will wear such clothing.
+
+
+#Dom / Sub & Psyche Play
+(General)
+* Being Dominant
+? Engaging in an RP where you are the one in control in an erotic power exchange.
+* Being Submissive
+? Engaging in an RP where you are the one being controled in an erotic power exchange.
+* Begging
+? The self-abasing act of pleading, as a form of submission, being incorporated into an RP.
+* Chastity
+? Sexual abstinence, either willing or forced; this can include someone simply abstaining from sexual activity, or the wearing of a device that prevents it.
+* Coercion / Blackmail
+? Refers to the inclusion of Coercion and / or Blackmail in the context of the story arc of an RP, often in the form of a semi-consensual means of receiving goods, services, or sex from a partner.
+* Degradation
+? A situation where one character will be purposefully degraded, usually as a means of lowering their self worth; typically in the context of guilt or BDSM.
+* Dirty Talking
+? The act of speaking in a typically explicit manner to provoke sexual stimulation from a participant, sometimes one's self; often in the context of seduction or foreplay.
+* Discipline / Reinforcement
+? The use of reinforcement (rewards and / or punishments) in order to train a submissive to obey the various commands of a master.
+* Femdom
+? Play in which a character of female gender takes the role of dominant, maintaining control and authority; being considered the focal point of the dynamic. It is defined as an exchange founded on her needs, pleasures, and desires, with the submissive’s purpose to provide service to her first and foremost.
+* Forced Nudity
+? The act of either forcing a character to be nude or being forced to be nude by another character; typically used in public situations.
+* Force Feeding
+? Engaging in an RP in which a character, typically bound or otherwise immobile, is forced to consume large, often impossible and unrealistic, amounts of food against their will, often resulting in inflation and / or weight gain.
+* Humiliation
+? Engaging in an RP in which one character will be embarrassed, typically extremely and / or frequently, in an attempt to elicit either a response of sexual gratification from the emotions correlating to humiliation, or merely as a form of psychological domination or punishment; typically a more intense form of degradation.
+* Master / Pet
+? Engaging in an RP in which a domination / submission relationship is played between at least two characters, and in which the bottom character takes on the role of a pet; typically a training-based scenario with positive reinforcement over negative reinforcement, as well as the inclusion of affection.
+* Master / Slave
+? Engaging in an RP in which a domination / submission relationship is played between at least two characters, and in which the bottom character takes on the role of a slave; typically requires the slave to accept any and all commands, often involves non-sexual forms of abuse and uses negative reinforcement.
+* Objectification
+? The act of either being treated or treating another character as a specific and set object, often articles of furniture, or bestowing dehumanizing tasks to a character in order to imbue a character with the traits of an object.
+* Physical Restraints
+? The act of giving or receiving commands, typically verbal, that limit the way in which another character is permitted to physically interact with another character.
+* Powerbottoming
+? An expressed interest in a sexual exchange where the character who is receiving penetration is in control, dominant, taking initiative, or directing the interaction.
+* Pet Play
+? Engaging in an RP in which a domination / submission relationship is played between two characters, and in which the bottom character takes on the role and psyche of a feral puppy, pony, or other predetermined animal; typically involves rituals, speech restrictions, physical restrictions, and humiliation, as well as extensive training and a mixture of positive and negative reinforcement.
+* Sexual Restraints
+? Refers to a dominant giving a command for how the submissive may act in regard to sexual acts or within a sexual situation; often a decree of chastity or prohibition from any form of sexual contact.
+* Speech Restrictions
+? The act of giving or receiving commands, typically verbal, that limit the way in which another character is permitted to speak or otherwise make noise from one's mouth; typically used in a BDSM context to constrain the submissive to begging, animal noises or silence.
+* Uppity
+? Expresses an interest in engaging in an RP in which the submissive and / or bottom character is combative and disobedient in any number of ways.
+
+
+#BDSM
+(General)
+* Apparatuses
+? The use of complex objects with moving parts in order to bondage, immobilize or otherwise sexually gratify and / or incapacitate a character, in the sexual context of an RP.
+* Blindfolds
+? The use of blindfolds or other objects to obscure the vision of at least one character in a sexual context.
+* Caging
+? The act of placing another character in a cage, or being placed in a cage, or other confining, device.
+* Electric Toys
+? The use of sex toys that carry an electrical current; sometimes painful.
+* Flogging / Whipping
+? The use of toys being employed against another character, particularly referring to contact play involving whips of any type, riding crops, paddles, or flogs.
+* Gags
+? The act of placing and lodging an object in another character's mouth to force them to breathe through their nose, as well as creating the inability to speak, or receiving such actions.
+* Hand Cuffs
+? The use of hand cuffs to partially immobilize a character during an RP, or to restrain a character to an object.
+* Heavy / Extreme Bondage
+? The use of bondage that is extreme in either the position in which it causes the bound character to be in, the duration for which the character will be in bondage, the level of discomfort caused by the bondage or the amount of immobilization that will occur due to the bondage.
+* Immobilization (Bondage)
+? Engaging in an RP in which at least one character will be physically immobilized, typical by heavy bondage or mummification from BDSM, but may be from other methods like entrapment or suppression.
+* Leash & Collar
+? Engaging in an RP in which a character will be adorned with a collar that will be attached to a leash.
+* Light / Medium Bondage
+? The use of bondage that is mild or moderate in either the position in which it causes the bound character to be in, the duration for which the character will be in bondage, the level of discomfort caused by the bondage or the amount of immobilization that will occur due to the bondage.
+* Orgasm Control / Denial
+? Refers to the dominant(s) being in control of when the submissive(s) achieve(s) orgasm, either by physical means or by command; typically involves domination and / or excessive teasing and edging; orgasm may be completely denied
+* Pleasure Control / Denial
+? Engaging in an RP in which one character is in a position to administer or withhold any form of physical, sexual or psychological pleasure to another character; pleasure may be completely denied.
+* Suspension Play
+? Engaging in an RP that includes suspension apparatuses and / or rope toys, which typically will suspend one character above the bed or floor; often uncomfortable.
+
+
+#Roughness / Pain
+(General)
+* Ballbusting
+? Harm to the testicles, usually for sexual pleasure.
+* Biting
+? The act of biting or being bitten; sometimes painful, sometimes playful.
+* Breath Control
+? A situation in which at least one character will have physical control over the breathing habits of another character, often by either intermittent choking and / or due to the penetration of the throat.
+* Hair Pulling
+? The act of pulling or tugging on another character's hair, or being the recipient of such.
+* Roughness
+? The involvement of rough behavior and actions (typically during sex) upon a partner. Usually denotes harsh grabbing, pulling, brisk brusque motions, and similar physical conduct.
+* Sadism / Masochism
+? The act of taking the role of a sadist or masochist, meaning one that receives sexual gratification from being the recipient of or administering physical pain.
+* Scratching
+? One character scratching another with their nails or claws, sometimes leaving marks; but not necessarily painful.
+* Sexual Pain
+? Refers to the inclusion of physical pain due to acts which are directly sexual; typically rough or excessive penetrations.
+* Spanking
+? The act of striking the buttocks of another character, or being the recipient of such; often as a form of erotic foreplay or as punishment in a BDSM setting.
+* Wax Play
+? The act of using wax, typically hot candle wax, as a form of sexual stimulation and / or torture, or receiving such actions.
+
+
+#Watersports & Scat
+(General)
+* Bathroom Control
+? A situation in which a character controls when, how and where another character may use the bathroom in any fashion, typically as a form of control or degradation.
+* Marking
+? The act of urinating on another character in order to mark them with your proprietary scent of urine, or being the recipient of such actions.
+* Scat
+? Pertains to the inclusion of fecal matter or the expelling of fecal matter in any form in the sexual context of an RP.
+* Swallowing Urine
+? Engaging in an RP in which a character will orally consume urine.
+* Watersports
+? Pertains to the inclusion of urine, or the expelling of urine, in any form, in the sexual context of an RP.
+* Wetting
+? The act of urinating in one's underwear, pants or clothes, or having another character urinate onto a person who is clothed to any degree.
+
+            </textarea>
+<button id="KinksOK">Accept</button>
+</div>
+</div>
+<div id="InputOverlay" class="overlay">
+<div class="widthWrapper">
+<div id="InputPrevious"></div>
+<div id="InputCurrent">
+<h2 id="InputCategory"></h2>
+<h3 id="InputField"></h3>
+<button class="closePopup">×</button>
+<div id="InputValues"></div>
+</div>
+<div id="InputNext"></div>
+</div>
+</div>
+<div id="DescriptionOverlay" class="overlay">
+<div id="Description"></div>
+</div>
+<script>
+            var log = function(val, base) {
+                return Math.log(val) / Math.log(base);
+            };
+            var concat = "?i=";
+            var strToClass = function(str){
+                var className = "";
+                str = str.toLowerCase();
+                var validChars = 'abcdefghijklmnopqrstuvwxyz';
+                var newWord = false;
+                for(var i = 0; i < str.length; i++) {
+                    var chr = str[i];
+                    if(validChars.indexOf(chr) >= 0) {
+                        if(newWord) chr = chr.toUpperCase();
+                        className += chr;
+                        newWord = false;
+                    }
+                    else {
+                        newWord = true;
+                    }
+                }
+                return className;
+            };
+            
+            var addCssRule = function(selector, rules){
+                var sheet = document.styleSheets[0];
+                if("insertRule" in sheet) {
+                    sheet.insertRule(selector + "{" + rules + "}", 0);
+                }
+                else if("addRule" in sheet) {
+                    sheet.addRule(selector, rules, 0);
+                }
+            };
+            
+			var kinks = {};
+            var inputKinks = {}
+            var colors = {}
+            var level = {};
+            var theme = 'light';
+            if(localStorage.getItem("theme") !== null && localStorage.getItem("theme") !== 'light'){toggletheme();}
+            
+            function toggletheme() {
+                if(theme === 'light'){
+                    $('<style id="darktheme"> body{ color: #BBBBCC; background-color: #001122; } th{ color: #1B446F; background-color: #1B446F; }tr:nth-child(even) { background-color: #001122; } #Description{ background-color: #1B446F; } #InputOverlay .widthWrapper #InputCurrent, #InputOverlay .widthWrapper .kink-simple { background-color: #1b446f; } #InputOverlay .widthWrapper #InputPrevious .kink-simple:first-child, #InputOverlay .widthWrapper #InputNext .kink-simple:nth-child(3) { background-color: #001121; } #InputOverlay .widthWrapper #InputPrevious .kink-simple:nth-child(2), #InputOverlay .widthWrapper #InputNext .kink-simple:nth-child(2) { background-color: #061e37; } #InputOverlay .widthWrapper #InputPrevious .kink-simple:nth-child(3), #InputOverlay .widthWrapper #InputNext .kink-simple:first-child { background-color: #092b4e; } #InputOverlay .widthWrapper #InputCurrent #InputValues .big-choice { background-color: rgba(50,87,126,0.75); } #InputOverlay .widthWrapper #InputCurrent #InputValues .big-choice:hover { background-color: rgba(50,87,126,1); }</style>').appendTo('head')
+                    theme = 'dark';
+                }else{
+                    $('#darktheme').remove();
+                    theme = 'light';
+                }
+                localStorage.setItem("theme", theme);
+            }
+            
+            $(function(){
+                
+                var imgurClientId = '9db53e5936cd02f';
+                
+                inputKinks = {
+                    $columns: [],
+                    createCategory: function(name, fields){
+                        var $category = $('<div class="kinkCategory">')
+                                .addClass('cat-' + strToClass(name))
+                                .data('category', name)
+                                .append($('<h2>')
+                                .text(name));
+                        
+                        var $table = $('<table class="kinkGroup">').data('fields', fields);
+                        var $thead = $('<thead>').appendTo($table);
+                        for(var i = 0; i < fields.length; i++) {
+                            $('<th>').addClass('choicesCol').text(fields[i]).html(inputKinks.createChoiceCategory(strToClass(name))).appendTo($thead);
+                        }
+                        $('<th>').appendTo($thead);
+                        $('<tbody>').appendTo($table);
+                        $category.append($table);
+                        
+                        return $category;
+                    },
+                    createChoiceCategory: function(category){
+                        var $container = $('<div>').addClass('choices').addClass('categoryhide');
+                        var levels = Object.keys(level);
+                        for(var i = 0; i < levels.length; i++) {
+                            $('<button>')
+                                    .addClass('choice')
+                                    .addClass(level[levels[i]])
+                                    .data('level', levels[i])
+                                    .data('levelInt', i)
+                                    .attr('title', levels[i])
+                                    .appendTo($container)
+                                    .on('click', function(){
+                                        $container.find('button').removeClass('selected');
+                                        $(this).addClass('selected');
+                                        $(".cat-"+category).find(".kinkRow").find("button").removeClass('selected');
+                                        $(".cat-"+category).find(".kinkRow").find("."+this.classList[1]).addClass('selected');
+                                    });
+                        }
+                        return $container;
+                    },
+                    createChoice: function(){
+                        var $container = $('<div>').addClass('choices');
+                        var levels = Object.keys(level);
+                        for(var i = 0; i < levels.length; i++) {
+                            $('<button>')
+                                    .addClass('choice')
+                                    .addClass(level[levels[i]])
+                                    .data('level', levels[i])
+                                    .data('levelInt', i)
+                                    .attr('title', levels[i])
+                                    .appendTo($container)
+                                    .on('click', function(){
+                                        $container.find('button').removeClass('selected');
+                                        $(this).addClass('selected');
+                                    });
+                        }
+                        return $container;
+                    },
+                    createKink: function(fields, kink){
+                        var $row = $('<tr>').data('kink', kink.kinkName).addClass('kinkRow');
+                        for(var i = 0; i < fields.length; i++) {
+                            var $choices = inputKinks.createChoice();
+                            $choices.data('field', fields[i]);
+                            $choices.addClass('choice-' + strToClass(fields[i]));
+                            $('<td>').append($choices).appendTo($row);
+                        }
+						var kinkLabel = $('<td>').text(kink.kinkName).appendTo($row);
+						if(kink.kinkDesc) {showDescriptionButton(kink.kinkDesc, kinkLabel);}
+                        $row.addClass('kink-' + strToClass(kink.kinkName));
+                        return $row;
+                    },
+                    createColumns: function(){
+                        var colClasses = ['100', '50', '33', '25'];
+                        
+                        var numCols = Math.floor((document.body.scrollWidth - 20) / 400);
+                        if(!numCols) numCols = 1;
+                        if(numCols > 4) numCols = 4;
+                        var colClass = 'col' + colClasses[numCols - 1];
+                        
+                        inputKinks.$columns = [];
+                        for(var i = 0; i < numCols; i++){
+                            inputKinks.$columns.push($('<div>').addClass('col ' + colClass).appendTo($('#InputList')));
+                        }
+                    },
+                    placeCategories: function($categories){
+                        var $body = $('body');
+                        var totalHeight = 0;
+                        for(var i = 0; i < $categories.length; i++) {
+                            var $clone = $categories[i].clone().appendTo($body);
+                            var height = $clone.height();;
+                            totalHeight += height;
+                            $clone.remove();
+                        }
+                        
+                        var colHeight = totalHeight / (inputKinks.$columns.length);
+                        var colIndex = 0;
+                        for(var i = 0; i < $categories.length; i++) {
+                            var curHeight = inputKinks.$columns[colIndex].height();
+                            var catHeight = $categories[i].height();
+                            if(curHeight + (catHeight / 2) > colHeight) colIndex++;
+                            while(colIndex >= inputKinks.$columns.length) {
+                                colIndex--;
+                            }
+                            inputKinks.$columns[colIndex].append($categories[i]);
+                        }
+                    },
+                    fillInputList: function(){
+                        $('#InputList').empty();
+                        inputKinks.createColumns();
+                        
+                        var $categories = [];
+                        var kinkCats = Object.keys(kinks);
+                        for(var i = 0; i < kinkCats.length; i++) {
+                            var catName = kinkCats[i];
+                            var category = kinks[catName];
+                            var fields = category.fields;
+                            var kinkArr = category.kinks;
+                            
+                            var $category = inputKinks.createCategory(catName, fields);
+                            var $tbody = $category.find('tbody');
+                            for(var k = 0; k < kinkArr.length; k++) {
+                                $tbody.append(inputKinks.createKink(fields, kinkArr[k]));
+                            }
+                            
+                            $categories.push($category);
+                        }
+                        inputKinks.placeCategories($categories);
+                        
+                        // Make things update hash
+                        $('#InputList').find('button.choice').on('click', function(){
+                            location.hash = inputKinks.updateHash();
+                        });
+                    },
+                    init: function(){
+                        // Set up DOM
+                        inputKinks.fillInputList();
+                        
+                        // Read hash
+                        inputKinks.parseHash();
+                        
+                        // Make export button work
+                        $('#Export').on('click',{method: "imgur"}, inputKinks.export);
+                        $('#ExportImage').on('click',{method: "image"}, inputKinks.export);
+                        $('#URL').on('click', function(){ this.select(); });
+                        
+                        // On resize, redo columns
+                        (function(){
+                            
+                            var lastResize = 0;
+                            $(window).on('resize', function(){
+                                var curTime = (new Date()).getTime();
+                                lastResize = curTime;
+                                setTimeout(function(){
+                                    if(lastResize === curTime) {
+                                        inputKinks.fillInputList();
+                                        inputKinks.parseHash();
+                                    }
+                                }, 500);
+                            });
+                            
+                        })();
+                    },
+                    hashChars: "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789-_.=+*^!@",
+                    maxPow: function(base, maxVal) {
+                        var maxPow = 1;
+                        for(var pow = 1; Math.pow(base, pow) <= maxVal; pow++){
+                            maxPow = pow;
+                        }
+                        return maxPow;
+                    },
+                    prefix: function(input, len, char){
+                        while(input.length < len) {
+                            input = char + input;
+                        }
+                        return input;
+                    },
+                    drawLegend: function(context){
+                        context.font = "bold 13px Arial";
+                        context.fillStyle = '#000000';
+                        
+                        var levels = Object.keys(colors);
+                        var x = context.canvas.width - 15 - (120 * levels.length);
+                        for(var i = 0; i < levels.length; i++) {
+                            context.beginPath();
+                            context.arc(x + (120 * i), 17, 8, 0, 2 * Math.PI, false);
+                            context.fillStyle = colors[levels[i]];
+                            context.fill();
+                            context.strokeStyle = 'rgba(0, 0, 0, 0.5)'
+                            context.lineWidth = 1;
+                            context.stroke();
+                            
+                            context.fillStyle = '#000000';
+                            context.fillText(levels[i], x + 15 + (i * 120), 22);
+                        }
+                    },
+                    setupCanvas: function(width, height, username){
+                        $('canvas').remove();
+                        var canvas = document.createElement('canvas');
+                        canvas.width = width;
+                        canvas.height = height;
+                        
+                        var $canvas = $(canvas);
+                        $canvas.css({
+                            width: width,
+                            height: height
+                        });
+                        // $canvas.insertBefore($('#InputList'));
+                        
+                        var context = canvas.getContext('2d');
+                        context.fillStyle = '#FFFFFF';
+                        context.fillRect(0, 0, canvas.width, canvas.height);
+                        
+                        context.font = "bold 24px Arial";
+                        context.fillStyle = '#000000';
+                        context.fillText('Kinklist ' + username, 5, 25);
+                        
+                        inputKinks.drawLegend(context);
+                        return { context: context, canvas: canvas };
+                    },
+                    drawCallHandlers: {
+                        simpleTitle: function(context, drawCall){
+                            context.fillStyle = '#000000';
+                            context.font = "bold 18px Arial";
+                            context.fillText(drawCall.data, drawCall.x, drawCall.y + 5);
+                        },
+                        titleSubtitle: function(context, drawCall){
+                            context.fillStyle = '#000000';
+                            context.font = "bold 18px Arial";
+                            context.fillText(drawCall.data.category, drawCall.x, drawCall.y + 5);
+                            
+                            var fieldsStr = drawCall.data.fields.join(', ');
+                            context.font = "italic 12px Arial";
+                            context.fillText(fieldsStr, drawCall.x, drawCall.y + 20);
+                        },
+                        kinkRow: function(context, drawCall){
+                            context.fillStyle = '#000000';
+                            context.font = "12px Arial";
+                            
+                            var x = drawCall.x + 5 + (drawCall.data.choices.length * 20);
+                            var y = drawCall.y - 6;
+                            context.fillText(drawCall.data.text, x, y);
+                            
+                            // Circles
+                            for(var i = 0; i < drawCall.data.choices.length; i++){
+                                var choice = drawCall.data.choices[i];
+                                var color = colors[choice];
+                                
+                                var x = 10 + drawCall.x + (i * 20);
+                                var y = drawCall.y - 10;
+                                
+                                context.beginPath();
+                                context.arc(x, y, 8, 0, 2 * Math.PI, false);
+                                context.fillStyle = color;
+                                context.fill();
+                                context.strokeStyle = 'rgba(0, 0, 0, 0.5)'
+                                context.lineWidth = 1;
+                                context.stroke();
+                            }
+                            
+                        }
+                    },
+                    export: function(event){
+                        var username = prompt("Please enter your name");
+                        if(typeof username !== 'string') return;
+                        else if (username.length ) username = '(' + username + ')';
+                        
+                        $('#Loading').fadeIn();
+                        $('#URL').fadeOut();
+                        $('#ExportInfo').fadeOut();
+                        
+                        // Constants
+                        var numCols = 6;
+                        var columnWidth = 250;
+                        var simpleTitleHeight = 35;
+                        var titleSubtitleHeight = 50;
+                        var rowHeight = 25;
+                        var offsets = {
+                            left: 10,
+                            right: 10,
+                            top: 50,
+                            bottom: 10
+                        };
+                        
+                        // Find out how many we have of everything
+                        var numCats = $('.kinkCategory').length;
+                        var dualCats = $('.kinkCategory th + th + th').length;
+                        var simpleCats = numCats - dualCats;
+                        var numKinks = $('.kinkRow').length;
+                        
+                        // Determine the height required for all categories and kinks
+                        var totalHeight = (
+                                (numKinks * rowHeight) +
+                                (dualCats * titleSubtitleHeight) +
+                                (simpleCats * simpleTitleHeight)
+                        );
+                        
+                        // Initialize columns and drawStacks
+                        var columns = [];
+                        for(var i = 0; i < numCols; i++){
+                            columns.push({ height: 0, drawStack: []});
+                        }
+                        
+                        // Create drawcalls and place them in the drawStack
+                        // for the appropriate column
+                        var avgColHeight = totalHeight / numCols;
+                        var columnIndex = 0;
+                        $('.kinkCategory').each(function(){
+                            var $cat = $(this);
+                            var catName = $cat.data('category');
+                            var category = kinks[catName];
+                            var fields = category.fields;
+                            var catKinks = category.kinks;
+                            
+                            var catHeight = 0;
+                            catHeight += (fields.length === 1) ? simpleTitleHeight : titleSubtitleHeight;
+                            catHeight += (catKinks.length * rowHeight);
+                            
+                            // Determine which column to place this category in
+                            if((columns[columnIndex].height + (catHeight / 2)) > avgColHeight) columnIndex++;
+                            while(columnIndex >= numCols) columnIndex--;
+                            var column = columns[columnIndex];
+                            
+                            // Drawcall for title
+                            var drawCall = { y: column.height };
+                            column.drawStack.push(drawCall);
+                            if(fields.length < 2) {
+                                column.height += simpleTitleHeight;
+                                drawCall.type =  'simpleTitle';
+                                drawCall.data = catName;
+                            }
+                            else {
+                                column.height += titleSubtitleHeight;
+                                drawCall.type =  'titleSubtitle';
+                                drawCall.data = {
+                                    category: catName,
+                                    fields: fields
+                                };
+                            }
+                            
+                            // Drawcalls for kinks
+                            $cat.find('.kinkRow').each(function(){
+                                var $kinkRow = $(this);
+                                var drawCall = { y: column.height, type: 'kinkRow', data: {
+                                        choices: [],
+                                        text: $kinkRow.data('kink')
+                                }};
+                                column.drawStack.push(drawCall);
+                                column.height += rowHeight;
+                                
+                                // Add choices
+                                $kinkRow.find('.choices').each(function(){
+                                    var $selection = $(this).find('.choice.selected');
+                                    var selection = ($selection.length > 0)
+                                            ? $selection.data('level')
+                                            : Object.keys(level)[0];
+                                    
+                                    drawCall.data.choices.push(selection);
+                                });
+                            });
+                        });
+                        
+                        var tallestColumnHeight = 0;
+                        for(var i = 0; i < columns.length; i++){
+                            if(tallestColumnHeight < columns[i].height) {
+                                tallestColumnHeight = columns[i].height;
+                            }
+                        }
+                        
+                        var canvasWidth = offsets.left + offsets.right + (columnWidth * numCols);
+                        var canvasHeight = offsets.top + offsets.bottom + tallestColumnHeight;
+                        var setup = inputKinks.setupCanvas(canvasWidth, canvasHeight, username);
+                        var context = setup.context;
+                        var canvas = setup.canvas;
+                        
+                        for(var i = 0; i < columns.length; i++) {
+                            var column = columns[i];
+                            var drawStack = column.drawStack;
+                            
+                            var drawX = offsets.left + (columnWidth * i);
+                            for(var j = 0; j < drawStack.length; j++){
+                                var drawCall = drawStack[j];
+                                drawCall.x = drawX;
+                                drawCall.y += offsets.top;
+                                inputKinks.drawCallHandlers[drawCall.type](context, drawCall);
+                            }
+                        }
+                        
+                        //return $(canvas).insertBefore($('#InputList'));
+                        
+                        // If imgur fails, not implemented
+                        function failsafe(){
+                            $.ajax({
+                                url: 'failsafe',
+                                type: 'POST',
+                                headers: {
+                                    // Your application gets an imgurClientId from Imgur
+                                    Authorization: 'Client-ID ' + imgurClientId,
+                                    Accept: 'application/json'
+                                },
+                                data: {
+                                    // convert the image data to base64
+                                    image:  canvas.toDataURL().split(',')[1],
+                                    type: 'base64',
+                                    username: username
+                                },
+                                success: function(result) {
+                                    $('#Loading').hide();
+                                    var url = '' + result.data.id + '.png';
+                                    $('#URL').val(url).fadeIn();
+                                    $('#ExportInfo').fadeOut();
+                                },
+                                fail: function(){
+                                    //$('#Loading').hide();
+                                    //alert('Failed to upload to failsafe, could not connect');
+                                }
+                            });
+                        }
+                        failsafe();
+                        // Send canvas to imgur
+                        
+                        if(event.data.method === "imgur"){
+                            $.ajax({
+                                url: 'https://api.imgur.com/3/image',
+                                type: 'POST',
+                                headers: {
+                                    // Your application gets an imgurClientId from Imgur
+                                    Authorization: 'Client-ID ' + imgurClientId,
+                                    Accept: 'application/json'
+                                },
+                                data: {
+                                    // convert the image data to base64
+                                    image:  canvas.toDataURL().split(',')[1],
+                                    type: 'base64'
+                                },
+                                success: function(result) {
+                                    $('#Loading').hide();
+                                    var url = 'https://i.imgur.com/' + result.data.id + '.png';
+                                    $('#URL').val(url).fadeIn();
+                                    $('#ExportInfo').fadeOut();
+                                },
+                                fail: function(){
+                                    $('#Loading').hide();
+                                    alert('Failed to upload to imgur, could not connect');
+                                }
+                            });
+                        }else if(event.data.method === "image"){
+                            var exportimg = new Image();
+                            exportimg.src = "data:image/jpg;base64," + canvas.toDataURL().split(',')[1];
+                            
+                            var w = window.open("");
+                            w.document.write(exportimg.outerHTML);
+                            
+                            $('#Loading').hide();
+                        }
+                    },
+                    encode: function(base, input){
+                        var hashBase = inputKinks.hashChars.length;
+                        var outputPow = inputKinks.maxPow(hashBase, Number.MAX_SAFE_INTEGER);
+                        var inputPow = inputKinks.maxPow(base, Math.pow(hashBase, outputPow));
+                        
+                        var output = "";
+                        var numChunks = Math.ceil(input.length / inputPow);
+                        var inputIndex = 0;
+                        for(var chunkId = 0; chunkId < numChunks; chunkId++) {
+                            var inputIntValue = 0;
+                            for(var pow = 0; pow < inputPow; pow++) {
+                                var inputVal = input[inputIndex++];
+                                if(typeof inputVal === "undefined") break;
+                                var val = inputVal * Math.pow(base, pow);
+                                inputIntValue += val;
+                            }
+                            
+                            var outputCharValue = "";
+                            while(inputIntValue > 0) {
+                                var maxPow = Math.floor(log(inputIntValue, hashBase));
+                                var powVal = Math.pow(hashBase, maxPow);
+                                var charInt = Math.floor(inputIntValue / powVal);
+                                var subtract = charInt * powVal;
+                                var char = inputKinks.hashChars[charInt];
+                                outputCharValue += char;
+                                inputIntValue -= subtract;
+                            }
+                            var chunk = inputKinks.prefix(outputCharValue, outputPow, inputKinks.hashChars[0]);
+                            output += chunk;
+                        }
+                        return output;
+                    },
+                    decode: function(base, output){
+                        var hashBase = inputKinks.hashChars.length;
+                        var outputPow = inputKinks.maxPow(hashBase, Number.MAX_SAFE_INTEGER);
+                        
+                        var values = [];
+                        var numChunks = Math.max(output.length / outputPow)
+                        for(var i = 0; i < numChunks; i++){
+                            var chunk = output.substring(i * outputPow, (i + 1) * outputPow);
+                            var chunkValues = inputKinks.decodeChunk(base, chunk);
+                            for(var j = 0; j < chunkValues.length; j++) {
+                                values.push(chunkValues[j]);
+                            }
+                        }
+                        return values;
+                    },
+                    decodeChunk: function(base, chunk){
+                        var hashBase = inputKinks.hashChars.length;
+                        var outputPow = inputKinks.maxPow(hashBase, Number.MAX_SAFE_INTEGER);
+                        var inputPow = inputKinks.maxPow(base, Math.pow(hashBase, outputPow));
+                        
+                        var chunkInt = 0;
+                        for(var i = 0; i < chunk.length; i++) {
+                            var char = chunk[i];
+                            var charInt = inputKinks.hashChars.indexOf(char);
+                            var pow = chunk.length - 1 - i;
+                            var intVal = Math.pow(hashBase, pow) * charInt;
+                            chunkInt += intVal;
+                        }
+                        var chunkIntCopy = chunkInt;
+                        
+                        var output = [];
+                        for(var pow = inputPow - 1; pow >= 0; pow--) {
+                            var posBase = Math.floor(Math.pow(base, pow));
+                            var posVal = Math.floor(chunkInt / posBase);
+                            var subtract = posBase * posVal;
+                            output.push(posVal);
+                            chunkInt -= subtract;
+                        }
+                        output.reverse();
+                        return output;
+                    },
+                    updateHash: function(){
+                        var hashValues = [];
+                        $('#InputList .choices').each(function(){
+                            var $this = $(this);
+                            var lvlInt = $this.find('.selected').data('levelInt');
+                            if(!lvlInt) lvlInt = 0;
+                            hashValues.push(lvlInt);
+                        });
+                        return inputKinks.encode(Object.keys(colors).length, hashValues);
+                    },
+                    parseHash: function(){
+                        var hash = location.hash.substring(1);
+                        if(hash.length < 10) return;
+                        
+                        var values = inputKinks.decode(Object.keys(colors).length, hash);
+                        var valueIndex = 0;
+                        $('#InputList .choices').each(function(){
+                            var $this = $(this);
+                            var value = values[valueIndex++];
+                            $this.children().eq(value).addClass('selected');
+                        });
+                    },
+                    saveSelection: function(){
+                        var selection = [];
+                        $('.choice.selected').each(function(){
+                            // .choice selector
+                            var selector = '.' + this.className.replace(/ /g, '.');
+                            // .choices selector
+                            selector = '.' + $(this).closest('.choices')[0].className.replace(/ /g, '.') + ' ' + selector;
+                            // .kinkRow selector
+                            selector = '.' + $(this).closest('tr.kinkRow')[0].className.replace(/ /g, '.') + ' ' + selector;
+                            // .kinkCategory selector
+                            selector = '.' + $(this).closest('.kinkCategory')[0].className.replace(/ /g, '.') + ' ' + selector;
+                            selector = selector.replace('.selected', '');
+                            selection.push(selector);
+                        });
+                        return selection;
+                    },
+                    inputListToText: function(){
+                        var KinksText = "";
+                        var kinkCats = Object.keys(kinks);
+                        for(var i = 0; i < kinkCats.length; i++){
+                            var catName = kinkCats[i];
+                            var catFields = kinks[catName].fields;
+                            var catKinks = kinks[catName].kinks;
+                            KinksText += '#' + catName + "\r\n";
+                            KinksText += '(' + catFields.join(', ') + ")\r\n";
+                            for(var j = 0; j < catKinks.length; j++){
+                                KinksText += '* ' + catKinks[j].kinkName + "\r\n";
+								if(catKinks[j].kinkDesc) 
+									{ KinksText += '? ' + catKinks[j].kinkDesc + "\r\n"; }
+                            }
+                            KinksText += "\r\n";
+                        }
+                        return KinksText;
+                    },
+                    restoreSavedSelection: function(selection){
+                        setTimeout(function(){
+                            for(var i = 0; i < selection.length; i++){
+                                var selector = selection[i];
+                                $(selector).addClass('selected');
+                            }
+                            location.hash = inputKinks.updateHash();
+                        }, 300);
+                    },
+                    parseKinksText: function(kinksText){
+                        var newKinks = {};
+                        var lines = kinksText.replace(/\r/g, '').split("\n");
+
+                        var cat = null;
+                        var catName = null;
+                        for(var i = 0; i < lines.length; i++){
+                            var line = lines[i];
+                            if(!line.length) continue;
+
+                            if(line[0] === '#') {
+                                if(catName){
+                                    if(!(cat.fields instanceof Array) || cat.fields.length < 1){
+                                        alert(catName + ' does not have any fields defined!');
+                                        return;
+                                    }
+                                    if(!(cat.kinks instanceof Array) || cat.kinks.length < 1){
+                                        alert(catName + ' does not have any kinks listed!');
+                                        return;
+                                    }
+                                    newKinks[catName] = cat;
+                                }
+                                catName = line.substring(1).trim();
+                                cat = { kinks: [] };
+                            }
+                            if(!catName) continue;
+                            if(line[0] === '(') {
+                                cat.fields = line.substring(1, line.length - 1).trim().split(',');
+                                for(var j = 0; j < cat.fields.length; j++){
+                                    cat.fields[j] = cat.fields[j].trim();
+                                }
+                            }
+                            if(line[0] === '*'){
+								var kink = {};
+                                kink.kinkName = line.substring(1).trim();
+								cat.kinks.push(kink);
+                            }
+							if(line[0] === '?'){
+								kink.kinkDesc = line.substring(1).trim();
+							}
+                        }
+                        if(catName && !newKinks[catName]){
+                            if(!(cat.fields instanceof Array) || cat.fields.length < 1){
+                                alert(catName + ' does not have any fields defined!');
+                                return;
+                            }
+                            if(!(cat.kinks instanceof Array) || cat.kinks.length < 1){
+                                alert(catName + ' does not have any kinks listed!');
+                                return;
+                            }
+                            newKinks[catName] = cat;
+                        }
+                        return newKinks;
+                    }					
+				};
+
+                $('#Edit').on('click', function(){
+                    var KinksText = inputKinks.inputListToText();
+                    $('#Kinks').val(KinksText.trim());
+                    $('#EditOverlay').fadeIn();
+                });
+                $('#EditOverlay').on('click', function(){
+                    $(this).fadeOut();
+                });
+                $('#KinksOK').on('click', function(){
+                    var selection = inputKinks.saveSelection();
+                    try {
+                        var kinksText = $('#Kinks').val();
+                        kinks = inputKinks.parseKinksText(kinksText);
+                        inputKinks.fillInputList();
+                    }
+                    catch(e){
+                        alert('An error occured trying to parse the text entered, please correct it and try again');
+                        return;
+                    }
+                    inputKinks.restoreSavedSelection(selection);
+                    $('#EditOverlay').fadeOut();
+                });
+                $('.overlay > *').on('click', function(e){
+                    e.stopPropagation();
+                });
+				$('#DescriptionOverlay').on('click', function(){
+                    $(this).fadeOut();
+                });
+				$('#Description').on('click', function(){
+                    $('#DescriptionOverlay').fadeOut();
+                });
+				
+				function showDescriptionButton(description, attachElement) {
+					$('<Button />', { "class": 'KinkDesc',  click: function() {
+																$('#Description').text(description);
+																$('#DescriptionOverlay').fadeIn();} 
+					}).appendTo(attachElement);
+				}
+				
+                var stylesheet = document.styleSheets[0];
+                $('.legend .choice').each(function(){
+                    var $choice = $(this);
+                    var $parent = $choice.parent();
+                    var text = $parent.text().trim();
+                    var color = $choice.data('color');
+                    var cssClass = this.className.replace('choice ', '').trim();
+                    
+                    addCssRule('.choice.' + cssClass, 'background-color: ' + color + ';');
+                    colors[text] = color;
+                    level[text] = cssClass;
+                });
+        
+                kinks = inputKinks.parseKinksText($('#Kinks').text().trim());
+                inputKinks.init();
+                
+                (function(){
+                    var $popup = $('#InputOverlay');
+                    var $previous = $('#InputPrevious');
+                    var $next = $('#InputNext');
+
+                    // current
+                    var $category = $('#InputCategory');
+                    var $field = $('#InputField');
+                    var $options = $('#InputValues');
+
+                    function getChoiceValue($choices){
+                        var $selected = $choices.find('.choice.selected');
+                        return $selected.data('level');
+                    }
+
+                    function getChoicesElement(category, kink, field){
+                        var selector = '.cat-' + strToClass(category);
+                        selector += ' .kink-' + strToClass(kink.kinkName);
+                        selector += ' .choice-' + strToClass(field);
+
+                        var $choices = $(selector);
+                        return $choices;
+                    }
+
+                    inputKinks.getAllKinks = function(){
+                        var list = [];
+
+                        var categories = Object.keys(kinks);
+                        for(var i = 0; i < categories.length; i++){
+                            var category = categories[i];
+                            var fields = kinks[category].fields;
+                            var kinkArr = kinks[category].kinks;
+
+                            for(var j = 0; j < fields.length; j++) {
+                                var field = fields[j];
+                                for(var k = 0; k < kinkArr.length; k++){
+                                    var kink = kinkArr[k];
+                                    var $choices = getChoicesElement(category, kink, field);
+                                    var value = getChoiceValue($choices);
+                                    var obj = { category: category, kink: {name: kink.kinkName, desc: kink.kinkDesc}, field: field, value: value, $choices: $choices, showField: (fields.length >= 2)};
+                                    list.push(obj);
+                                }
+                            }
+
+                        }
+                        return list;
+                    };
+
+                    inputKinks.inputPopup = {
+                        numPrev: 3,
+                        numNext: 3,
+                        allKinks: [],
+                        kinkByIndex: function(i){
+                            var numKinks = inputKinks.inputPopup.allKinks.length;
+                            i = (numKinks + i) % numKinks;
+                            return inputKinks.inputPopup.allKinks[i];
+                        },
+                        generatePrimary: function(kink){
+                            var $container = $('<div>');
+                            var btnIndex = 0;
+                            $('.legend > div').each(function(){
+                                var $btn = $(this).clone();
+                                $btn.addClass('big-choice');
+                                $btn.appendTo($container);
+
+                                $('<span>')
+                                        .addClass('btn-num-text')
+                                        .text(btnIndex++)
+                                        .appendTo($btn)
+
+                                var text = $btn.text().trim().replace(/[0-9]/g, '');
+                                if(kink.value === text) {
+                                    $btn.addClass('selected');
+                                }
+
+                                $btn.on('click', function(){
+                                    $container.find('.big-choice').removeClass('selected');
+                                    $btn.addClass('selected');
+                                    kink.value = text;
+                                    $options.fadeOut(200, function(){
+                                        $options.show();
+                                        inputKinks.inputPopup.showNext();
+                                    });
+                                    var choiceClass = strToClass(text);
+                                    kink.$choices.find('.' + choiceClass).click();
+                                });
+                            });
+                            return $container;
+                        },
+                        generateSecondary: function(kink){
+                            var $container = $('<div class="kink-simple">');
+                            $('<span class="choice">').addClass(level[kink.value]).appendTo($container);
+                            $('<span class="txt-category">').text(kink.category).appendTo($container);
+                            if(kink.showField){
+                                $('<span class="txt-field">').text(kink.field).appendTo($container);
+                            }
+                            $('<span class="txt-kink">').text(kink.kink.name).appendTo($container);
+                            return $container;
+                        },
+                        showIndex: function(index){
+                            $previous.html('');
+                            $next.html('');
+                            $options.html('');
+                            $popup.data('index', index);
+
+                            // Current
+                            var currentKink = inputKinks.inputPopup.kinkByIndex(index);
+                            var $currentKink = inputKinks.inputPopup.generatePrimary(currentKink);
+                            $options.append($currentKink);
+                            $category.text(currentKink.category);
+                            var label = $field.text((currentKink.showField ? '(' + currentKink.field + ') ' : '') + currentKink.kink.name);
+                            if(currentKink.kink.desc) {showDescriptionButton(currentKink.kink.desc, label);}
+							$options.append($currentKink);
+
+                            // Prev
+                            for(var i = inputKinks.inputPopup.numPrev; i > 0; i--){
+                                var prevKink = inputKinks.inputPopup.kinkByIndex(index - i);
+                                var $prevKink = inputKinks.inputPopup.generateSecondary(prevKink);
+                                $previous.append($prevKink);
+                                (function(skip){
+                                    $prevKink.on('click', function(){
+                                        inputKinks.inputPopup.showPrev(skip);
+                                    });
+                                })(i);
+                            }
+                            // Next
+                            for(var i = 1; i <= inputKinks.inputPopup.numNext; i++){
+                                var nextKink = inputKinks.inputPopup.kinkByIndex(index + i);
+                                var $nextKink = inputKinks.inputPopup.generateSecondary(nextKink);
+                                $next.append($nextKink);
+                                (function(skip){
+                                    $nextKink.on('click', function(){
+                                        inputKinks.inputPopup.showNext(skip);
+                                    });
+                                })(i);
+                            }
+                        },
+                        showPrev: function(skip){
+                            if(typeof skip !== "number") skip = 1;
+                            var index = $popup.data('index') - skip;
+                            var numKinks = inputKinks.inputPopup.allKinks.length;
+                            index = (numKinks + index) % numKinks;
+                            inputKinks.inputPopup.showIndex(index);
+                        },
+                        showNext: function(skip){
+                            if(typeof skip !== "number") skip = 1;
+                            var index = $popup.data('index') + skip;
+                            var numKinks = inputKinks.inputPopup.allKinks.length;
+                            index = (numKinks + index) % numKinks;
+                            inputKinks.inputPopup.showIndex(index);
+                        },
+                        show: function(){
+                            inputKinks.inputPopup.allKinks = inputKinks.getAllKinks();
+                            inputKinks.inputPopup.showIndex(0);
+                            $popup.fadeIn();
+                        }
+                    };
+
+                    $(window).on('keydown', function(e){
+                        if(e.altKey || e.shiftKey || e.ctrlKey) return;
+                        if(!$popup.is(':visible')) return;
+
+                        if(e.keyCode === 38) {
+                            inputKinks.inputPopup.showPrev();
+                            e.preventDefault();
+                            e.stopPropagation();
+                        }
+                        if(e.keyCode === 40) {
+                            inputKinks.inputPopup.showNext();
+                            e.preventDefault();
+                            e.stopPropagation();
+                        }
+
+                        var btn = -1;
+                        if(e.keyCode >= 96 && e.keyCode <= 101) {
+                            btn = e.keyCode - 96;
+                        }
+                        else if(e.keyCode >= 48 && e.keyCode <= 53) {
+                            btn = e.keyCode - 48;
+                        }
+                        else {
+                            return;
+                        }
+
+                        var $btn = $options.find('.big-choice').eq(btn);
+                        $btn.click();
+                    });
+                    $('#StartBtn').on('click', inputKinks.inputPopup.show);
+                    $('#themeBtn').on('click', toggletheme);
+                    $('#InputCurrent .closePopup, #InputOverlay').on('click', function(){
+                        $popup.fadeOut();
+                    });                    
+                })();
+            });
+        </script>
+</body>
+</html>
